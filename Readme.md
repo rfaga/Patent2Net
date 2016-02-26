@@ -69,7 +69,7 @@ If you're using Ubuntu or Debian distributions, make sure to have PIP installed:
 
 Then, run the requirements.txt file to install all dependencies:
 
-    pip install -r Development/requirements.text
+    pip install -r Development/requirements.txt
 
 To use the current Development version, you can make a symbolic link to your desired folder:
 
