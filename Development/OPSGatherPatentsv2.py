@@ -50,6 +50,7 @@ global secret
 # chargement clés de client
 fic = open('..//cles-epo.txt', 'r')
 key, secret = fic.read().split(',')
+key, secret = key.strip(), secret.strip()
 fic.close()
 
  
